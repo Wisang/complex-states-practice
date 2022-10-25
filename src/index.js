@@ -13,3 +13,9 @@ ReactDOM.render(<App />, document.getElementById("root"));
 //2. Making use of previous state when changing state.
 //3. Working with forms in React.
 //4. Handing events
+
+const obj1= {"name":"John", "age":30, "city":"New York"};
+
+const obj2= {...obj1, "name":"kim", "age": 40};
+
+console.log(obj2);
